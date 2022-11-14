@@ -1,0 +1,27 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+table, td, th {
+    border:1px solid black;
+    border-collapse: collapse;
+
+}
+
+table{
+    width: 50%;
+    text-align: left7;
+}
+
+th{
+    background-color: lightblue;
+}
+
+tr:nth-child(odd){
+    background-color: #ddb;
+}
+
+tr:hover{
+    background-color: #ddd;
+}
+
